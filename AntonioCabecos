@@ -1,0 +1,39 @@
+//PYRHON BRASIL
+//EstruturaSequencial: Exercícios
+
+//1-Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+console.log('Alô mundo ! ')
+
+//2-Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+var numero = 2
+console.log('O numero informado foi: ', numero)
+
+//3-Faça um Programa que peça dois números e imprima a soma.
+var n1 = 1
+var n2 = 2
+console.log('A soma é: ', n1 + n2)
+
+//4-Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+nota = [8, 9, 0, 9] //Atribui 4 notas quaisquer a um vetor nota = [n1,n2,n3,n4]
+var soma = 0 //Atribui o valor ZERO à variávelsoma 
+for (index = 0; index < 4; index++) //Sintaxe: (index=0; index (n-1) elementos; index++ )
+{
+  soma = soma + nota[index]
+}
+var media = soma / 4
+console.log("soma ", soma)
+console.log("media ", media)
+
+//5-Faça um Programa que converta metros para centímetros.
+n3 = window.prompt("Digite um valor em metros qualquer:")
+{
+  document.write(n3)
+}
+alert(n3*100 + " centimetros")
+
+//6-Faça um Programa que peça o raio de um círculo, calcule e mostre sua área
+raioDoCirculo = window.prompt("Digite o raio da circunferência em centímetros: ")
+{
+  document.write(raioDoCirculo)
+}
+alert("A área calculada é: " + 3.141592654*raioDoCirculo*raioDoCirculo + " centímetros")
