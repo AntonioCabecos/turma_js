@@ -1,0 +1,22 @@
+
+//4.Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+
+
+
+crescimentoDaPopulacaoA = 80000
+crescimentoDaPopulacaoB = 200000 
+n = 0
+
+alert('Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento (digite ENTER)')
+
+alert('Calculando temos...(digite ENTER)')
+
+while (crescimentoDaPopulacaoA < crescimentoDaPopulacaoB)
+ {
+  crescimentoDaPopulacaoA = crescimentoDaPopulacaoA + (crescimentoDaPopulacaoA * 0.03);
+  crescimentoDaPopulacaoB = crescimentoDaPopulacaoB + (crescimentoDaPopulacaoB * 0.015);
+  n = n + 1
+}
+alert('A população A ultrapassará a Popyulação B em ' +n+' anos')
+console.log('resultado:  ',n, 'anos')
+
