@@ -1,0 +1,33 @@
+alert('O programa abaixo solicita 10 números inteiros e informa a quantidadede números pares ou ímpares e qual é a soma desses valores... (tecle ENTER para começar)')
+quantidadeDeNumerosPares = 0
+quantidadeDeNumerosImpares = 0
+
+
+for (index = 1; index <= 10; index++) {
+  numero = prompt('Digite um valor e tecle ENTER: ', 0);
+  numero = parseInt(numero)
+  
+  
+
+  if (numero % 2 == 0)
+  {
+    quantidadeDeNumerosPares = (numero + quantidadeDeNumerosPares)
+  } {
+    console.log("par");
+
+  }
+
+  
+
+
+  if (numero % 2 != 0)
+  {
+    quantidadeDeNumerosImpares = (numero + quantidadeDeNumerosImpares)
+  }
+  {
+    console.log("impar")
+  }
+
+}
+alert('Soma de todos os números pares: ' + quantidadeDeNumerosPares+' (tecle ENTER para continuar...)');
+alert('Soma de todos os números ímpares: ' + quantidadeDeNumerosImpares+' (tecle ENTER para encerrar o programa)');
