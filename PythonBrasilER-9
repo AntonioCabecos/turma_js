@@ -1,0 +1,62 @@
+alert('O programa abaixo solicita números inteiros e informa a quantidadede números pares ou ímpares e qual é a soma desses valores juntamente com a média desses ... (tecle ENTER para começar)')
+
+var numero= 0
+var soma = 0
+var somaI= 0
+var somaTotal =0
+var maiorNP = 0
+var n = 0
+var NumerosParesDigitados = 0
+var NumerosImparesDigitados = 0
+
+
+n = prompt('Digite quantos números serão verificados',0);
+
+for (index = 1; index <=n; index++) 
+{
+  numero= prompt('Digite um valor: ',0);
+  numero= parseInt(numero);
+  {
+     if(numero %2 ==0 && numero >0)
+    {
+      alert('par');
+      NumerosParesDigitados = (NumerosParesDigitados  + 1);
+      if (soma < numero);
+         {
+           soma=(soma+numero);
+          }
+        
+    }
+    
+     if(numero %2 !=0 && numero >0)
+    {
+      alert('impar');
+      NumerosImparesDigitados = (NumerosImparesDigitados  + 1);
+       if (somaI < numero);
+         {
+           somaI=(somaI+numero);
+          }
+    }
+
+    if(numero <0)
+    {
+      alert('Número negativo: "valor inválido!"');
+    }  
+  } 
+    {somaTotal = (somaTotal+ numero);} //verificar
+
+
+
+  
+}
+
+
+alert('Total de numeros pares digitados:  '+NumerosParesDigitados+'  (tecle ENTER para continuar..)');
+alert('Total de numeros impares digitados:  '+NumerosImparesDigitados+'  (tecle ENTER para continuar..)');
+alert('Soma dos numeros pares: '+soma+'  (tecle ENTER para continuar...)');
+alert('Soma dos números impares: '+somaI+'  (tecle ENTER para continuar...)');
+alert('Soma total de números (pares e impares):  '+(soma + somaI)+'  (tecle ENTER para continuar...')
+alert('Media de todos os valores = '+((soma + somaI)/n)+'  (tecle ENTER para continuar...)');
+
+
+
