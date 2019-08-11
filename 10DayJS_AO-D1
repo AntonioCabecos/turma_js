@@ -1,4 +1,4 @@
-alert('O programa abaixo calcula aárea de um retangulo qualquer...');
+alert('O programa abaixo calcula a área de um retângulo qualquer...');
 
 function getArea(length, width)
 {
