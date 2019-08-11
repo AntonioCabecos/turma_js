@@ -1,0 +1,24 @@
+alert('O programa abaixo calcula aárea de um retangulo qualquer...');
+
+function getArea(length, width)
+{
+    let area;
+    area = length * width; 
+    return area;
+}
+ 
+function getPerimeter(length, width)
+{
+    let perimeter;
+      perimeter = 2 * (length + width);
+    return perimeter;
+}
+
+var length = 0;
+var widht = 0;
+
+length = prompt('Digite o comprimento: ',0);
+width = prompt('Digite a largura: ',0);
+
+
+alert('A área do retângulo é:  '+getArea(length,width));
