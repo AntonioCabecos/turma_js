@@ -1,0 +1,19 @@
+alert('Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre: o produto do dobro do primeiro com metade do segundo, a soma do triplo do primeiro com o terceiro, o terceiro elevado ao cubo.');
+
+var N1 = 0;
+var N2 = 0;
+var N3 = 0;
+
+
+N1 = prompt('Digite o primeiro valor: ',0);
+N1 = parseInt(N1);
+
+N2 = prompt('Digite o segundo valor: ',0);
+N2 = parseInt(N2);
+
+N3 = prompt('Digite o terceiro valor: ',0);
+N3 = parseFloat(N3);
+const resultado =Math.pow(N3,3);
+
+alert('Os números digitados foram: '+N1+' '+N2+' '+N3)
+alert('Os resultados são: '+2*N1*(N2/2)+' ("produto do dobro do primeiro com metade do segundo"),  '+((3*N1)+N3)+'  ("soma do triplo do primeiro com o terceiro") '+resultado+ ' ("terceiro elevado ao cubo") respectivamente. Tecle ENTER para encerrar.')
